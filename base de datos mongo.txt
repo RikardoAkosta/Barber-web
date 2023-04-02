@@ -1,0 +1,3 @@
+web-barber
+ 
+mongodb+srv://<username>:<password>@cluster1.ycwymdi.mongodb.net/?retryWrites=true&w=majority
