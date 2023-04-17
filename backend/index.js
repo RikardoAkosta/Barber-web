@@ -1,12 +1,11 @@
 import "dotenv/config";
 import "./database/connectdb.js";
 import express from "express";
+import autRouter from "./routes/auth.routes.js";
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.json({ ok: true });
-});
+app.use("/api/v1", autRouter);
 
 const PORT = process.env.PORT || 6000;
 

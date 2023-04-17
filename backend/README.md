@@ -34,4 +34,4 @@ se generan las carpetas del proyecto para tener una mejor escalabilidad.
 https://www.youtube.com/watch?v=VrLvbzHVT9A&t=6823s
 https://bluuweb.github.io/desarrollo-web-bluuweb/21-03-api-rest/
 
-quede en minuto 45.05
+quede en minuto 1.11 solucion a conexion base de datos
