@@ -4,9 +4,9 @@ import express from "express";
 import autRouter from "./routes/auth.routes.js";
 
 const app = express();
-app.use(express.json());
+app.use(express.json());/* con esto estamos recibiendo las peticiones de postman en archivo json */
 app.use("/api/v1", autRouter);
 
 const PORT = process.env.PORT || 6000;
 
-app.listen(6000, () => console.log("😁😀😀😀http://localhost" + PORT));
+app.listen(PORT, () => console.log("😁😀😀😀 http://localhost: " + PORT));

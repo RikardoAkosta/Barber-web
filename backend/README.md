@@ -28,10 +28,12 @@ se generan las carpetas del proyecto para tener una mejor escalabilidad.
 
 ### dabase: se hace la conexión a la base de datos
 
+### se revisa docuemntacion express validator para el control de errores
+
 ## Creditos
 
 \*\* Bibliografia
 https://www.youtube.com/watch?v=VrLvbzHVT9A&t=6823s
 https://bluuweb.github.io/desarrollo-web-bluuweb/21-03-api-rest/
 
-quede en minuto 1.11 solucion a conexion base de datos
+quede en minuto 1.30 solucion a conexion base de datos y verificar las rutas de usuario
