@@ -11,9 +11,10 @@ npm i bcryptjs cookie-parser cors dotenv express express-validator jsonwebtoken 
 💕jsonwebtoken: token de seguridad para saber si esta autorizado
 🎆dotenv: ocultar las variables de entorno al momento de subir el repositorio
 🎇cors:nos permite no tener conflico entre los servidores de back y el front.
-🐱‍👤cookie-parser: sirve para que el JWT no sea almacenado en las cookies del navegador o local storage, si no en memoria y con un refres que será una cookie segura y hara la comunicación con el cliente
+🐱‍👤cookie-parser: sirve para que el JWT no sea almacenado en las cookies del navegador o local storage, si no en memoria y con un refres que será una cookie segura y hara la comunicación con el cliente documentacion en https://www.npmjs.com/package/jsonwebtoken
 ✔ bcryotjs: esto permite que las contraseñas no se guarden en texto plano y se cree una incriptacion de la contraseña
-##Estructura del Proyecto
+🎆Uso de JWT https://jwt.io/httpUso de JWT 
+## Estructura del Proyecto
 se generan las carpetas del proyecto para tener una mejor escalabilidad.
 
 ### controlle: toda la logica de las rutas se ejecutara aqui
@@ -28,7 +29,7 @@ se generan las carpetas del proyecto para tener una mejor escalabilidad.
 
 ### dabase: se hace la conexión a la base de datos
 
-### se revisa docuemntacion express validator para el control de errores
+### se revisa documentacion express validator para el control de errores
 
 ## Creditos
 
